@@ -1,22 +1,17 @@
 body {
   margin: 0;
   font-family: "Montserrat", Arial, sans-serif;
+  background-color: #fff9ff;
 }
-header {
- padding-top: 1.25rem;
-  text-align: left;
-  background-image:url(https://images.hdqwalls.com/wallpapers/seashore-4k-v7.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 128.125rem;
-  color: white;
+
+h1 {
+  margin-left: 3rem;
+  margin-top: 7rem;
   -webkit-text-stroke: 0.313rem black;
   paint-order: stroke fill;
-}
-header h1 {
   color: #fbf7ce;
   font-size: 7rem;
-  padding: 7.5rem;
+  backdrop-filter: blur(0rem);
 }
 
 h2 {
@@ -33,6 +28,7 @@ small {
   color: white;
 }
 footer {
+   border: 0.2rem solid black;
   text-align: center;
   padding: 0.6rem;
   background-color: #fbf7ce;
@@ -41,7 +37,7 @@ footer {
   display: grid; 
   place-items: center; 
   button {
-    border: none;
+    border: 0.2rem solid black;
     padding: 1.250rem;
     font-size: 1.250rem;
     border-radius: 0.625rem;
@@ -52,4 +48,20 @@ footer {
   button:hover{
     background-color: #fbe986;
   }
+}
+.dot {
+  background-image:url(https://images.hdqwalls.com/wallpapers/seashore-4k-v7.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 50.125rem;
+  color: white;
+  height: 50rem;
+  width: 50rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 83rem;
+  margin-top: -80rem;
+  margin-bottom: -10rem;
+  border: 0.25rem solid black;
 }

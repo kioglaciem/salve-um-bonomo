@@ -49,7 +49,7 @@ footer {
   }
 }
 .dot {
-  background-image: url(https://images.hdqwalls.com/wallpapers/seashore-4k-v7.jpg);
+  background-image: url('https://images.hdqwalls.com/wallpapers/seashore-4k-v7.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 50.125rem;

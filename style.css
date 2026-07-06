@@ -1,16 +1,33 @@
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: "Montserrat", Arial, sans-serif;
   background-color: #fff9ff;
 }
-
+header {
+   background-image:url(seashore-beach-rocks-aerial-view-4048x2272-1752.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 250.125rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+header .salve {
+  font-family: "GEIST", Arial, sans-serif;
+  margin-left: 3rem;
+  margin-top: -3.7rem;
+  color: #fff9ff;
+  font-size: 6.7rem;
+  backdrop-filter: blur(0rem);
+}
 h1 {
+  
+  font-family: "GEIST", Arial, sans-serif;
   margin-left: 3rem;
   margin-top: 7rem;
-  -webkit-text-stroke: 0.313rem black;
-  paint-order: stroke fill;
-  color: #fbf7ce;
-  font-size: 7rem;
+  color: #fff9ff;
+  font-size: 6.5rem;
+  backdrop-filter: blur(0rem);
 }
 
 h2 {
@@ -27,7 +44,6 @@ small {
   color: white;
 }
 footer {
-   border: 0.2rem solid black;
   text-align: center;
   padding: 0.6rem;
   background-color: #fbf7ce;
@@ -36,7 +52,7 @@ footer {
   display: grid; 
   place-items: center; 
   button {
-    border: 0.2rem solid black;
+    border: none;
     padding: 1.250rem;
     font-size: 1.250rem;
     border-radius: 0.625rem;
@@ -47,20 +63,4 @@ footer {
   button:hover{
     background-color: #fbe986;
   }
-}
-.dot {
-  background-image: url('https://images.hdqwalls.com/wallpapers/seashore-4k-v7.jpg');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 50.125rem;
-  color: white;
-  height: 50rem;
-  width: 50rem;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 85rem;
-  margin-top: -40rem;
-  margin-bottom: -10rem;
-  border: 0.25rem solid black;
 }

@@ -44,7 +44,7 @@ small {
 footer {
   text-align: center;
   padding: 0.6rem;
-  background-color: #fbf7ce;
+  background-color: #187489;
 }
 .container {
   display: grid; 
@@ -54,11 +54,11 @@ footer {
     padding: 1.250rem;
     font-size: 1.250rem;
     border-radius: 0.625rem;
-    background-color: #fbf7ce;
+    background-color: #187489;
     transition-duration: 0.4s;
     cursor: pointer;
   }
   button:hover{
-    background-color: #fbe986;
+    background-color: #187f89;
   }
 }
